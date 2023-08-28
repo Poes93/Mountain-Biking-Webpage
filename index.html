@@ -11,9 +11,19 @@
 
 <body>
     <header>
-       
+        <a id="header_link" href="index.html">
+            <h1>Mountain Biking Adventure</h1>
+        </a>
+
+        <input type="checkbox" id="nav-toggle" name="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+
+
         <nav>
-            <ul>
+
+            <ul id="menu">
                 <li><a href="#about">About</a></li>
                 <li><a href="#trails">Trails</a></li>
                 <li><a href="#gear">Gear</a></li>
@@ -23,10 +33,10 @@
             </ul>
         </nav>
     </header>
-  
+
     <main>
         <section id="hero">
-            <h1>Mountain Biking Adventure</h1>
+
 
         </section>
         <section>
@@ -38,7 +48,8 @@
             <p>Embark on an exhilarating journey with mountain biking. Feel the rush of wind as you navigate rugged
                 trails, conquer challenging terrains, and connect with nature. <br>Whether you're a beginner seeking new
                 thrills or an experienced rider pushing your limits, mountain biking offers an adrenaline-pumping escape
-                like no other. <br>It's not just a sport - it's a lifestyle that embraces the outdoors and fuels your sense
+                like no other. <br>It's not just a sport - it's a lifestyle that embraces the outdoors and fuels your
+                sense
                 of adventure. Saddle up and discover the freedom, the excitement, and the sheer joy of mountain biking
                 today.</p>
         </section>
@@ -48,7 +59,8 @@
                 dense forests to rocky mountainsides, each trail offers a unique challenge and a chance to connect with
                 nature. <br>Discover hidden gems and iconic routes that cater to riders of all levels. Whether you seek
                 heart-pounding descents or serene cross-country paths, these trails are your gateway to unforgettable
-                experiences. <br>Pack your gear, choose your trail, and get ready to ride through the beauty and excitement
+                experiences. <br>Pack your gear, choose your trail, and get ready to ride through the beauty and
+                excitement
                 of mountain biking.</p>
         </section>
         <section id="gear">
@@ -85,21 +97,20 @@
         <section id="contact">
             <h2>Contact</h2>
             <p>Contact us for any information</p>
-            <form id="survey-form">
+            <form id="survey-form" action="https://formdump.codeinstitute.net/">
                 <br>
                 <label for="name" id="name-label">Your Name</label>
-                    <input type="text" id="name" placeholder="Name" required>
+                <input type="text" id="name" name="name" placeholder="Name" required>
                 <br>
                 <label for="email" id="email-label">Your Email</label>
-                    <input type="email" id="email" placeholder="Email" required>
+                <input type="email" id="email" name="email" placeholder="Email" required>
                 <br>
-                <label for="bio">Provide a bio:
-                    <textarea id="bio" name="bio" rows="3" cols="30"
-                        placeholder="Ask us anything"></textarea>
+                <label for="question">Ask us anything:
+                    <textarea id="question" name="question" rows="3" cols="30" placeholder="Ask us anything"></textarea>
                     <br>
                     <button type="submit" class="join-button">Get in contact!</button>
-
-                </select>
+            </form>
+            </select>
         </section>
 
 

@@ -42,3 +42,11 @@ nav a {
     padding: 2rem 1.2rem;
     font-size: 1.2rem;
 }
+
+
+.social-links {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}

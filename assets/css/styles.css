@@ -1,12 +1,15 @@
 body {
     background-color: #f29b3d;
     color: #191919;
-    font-family: 'Playfair Display', sans-serif; /*Font family wont update*/
-    min-height: 100vh;
-   
-    display: flex;
-    
-    flex-direction: column;
-    
+    font-family: 'Playfair Display', sans-serif; /* Font family wont update */    
+}
 
+#about, #trails, #gear, #tips, #contact { /* Distance between the sections */
+    padding: 1.5rem 0;
+    text-align: center;
+    
+}
+
+li {
+    list-style-type: none; /* removes the dot in the lists */
 }

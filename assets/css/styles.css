@@ -1,0 +1,12 @@
+body {
+    background-color: #f29b3d;
+    color: #191919;
+    font-family: 'Playfair Display', sans-serif; /*Font family wont update*/
+    min-height: 100vh;
+   
+    display: flex;
+    
+    flex-direction: column;
+    
+
+}

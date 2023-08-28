@@ -1,20 +1,20 @@
 body {
     background-color: #f29b3d;
     color: #191919;
-    font-family: 'fantasy', sans-serif;
+    font-family: 'Garamond', sans-serif;
     /* Font family wont update */
 }
 
 header {
     background-color: #f29b3d;
-   
     position: fixed;
-    z-index: 1;
+    z-index: 100;
     width: 100%;
     box-shadow: 4px 0 4px #7a7373;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    top: 0;
 }
 
 /* Navbar styles with dropdown toggle */
@@ -26,24 +26,26 @@ nav {
     padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
-    top: 100%;
+    
+    
+    
+   
     
 }
 
 
 
-
 /* Nav toggle */
-#nav-toggle:checked~nav {
+#nav_toggle:checked~nav {
     display: block;
 }
 
-#nav-toggle {
+#nav_toggle {
     display: none;
 }
 
-.nav-toggle-label {
-    font-size: 2rem;
+.nav_toggle_label {
+    font-size: 1rem;
     
 }
 
@@ -55,7 +57,7 @@ nav a, #menu a {
 
 
 img {
-    max-width: 50%;
+    max-width: 100%;
     height: auto;
     padding: 20px 0 15px 0;
 }
@@ -91,6 +93,8 @@ img {
 #contact {
     padding: 0.5rem 0;
     text-align: center;
+    max-width: 70vw;
+    margin: auto;
 
 }
 
@@ -113,26 +117,22 @@ h1 {
 
 
 
-/* Centers the social media logos*/
-.social-links {
-    text-align: center;
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
-
-}
 
 
 
 
 /* On screens larger than 576px and up) */
-@media screen and (min-width: 576px) {}
+@media screen and (min-width: 576px) {
 
+   
+
+
+}
 
 /* On screens larger than (768px and up) */
 @media screen and (min-width: 768px) {
 
-    /* Header */
+    Header
     nav {
         display: block;
         position: relative;
@@ -149,7 +149,7 @@ h1 {
         padding-left: 1rem;
     }
 
-    .nav-toggle-label {
+    .nav_toggle_label {
         display: none;
     }
 

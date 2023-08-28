@@ -13,3 +13,10 @@ body {
 li {
     list-style-type: none; /* removes the dot in the lists */
 }
+
+#hero {
+    height: 400px;
+    width: 100%;
+    background: url("../assets/images/hero_image.jpg") no-repeat center center/cover;
+    position: relative;
+}

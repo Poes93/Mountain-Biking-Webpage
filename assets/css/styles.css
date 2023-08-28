@@ -3,20 +3,42 @@ body {
     color: #191919;
     font-family: 'Playfair Display', sans-serif; /* Font family wont update */    
 }
-
-#about, #trails, #gear, #tips, #contact { /* Distance between the sections */
+/* Distance between the sections */
+#about, #trails, #gear, #tips, #contact { 
     padding: 1.5rem 0;
     text-align: center;
     
 }
-
+/* removes the dot in the lists */
 li {
-    list-style-type: none; /* removes the dot in the lists */
+    list-style-type: none; 
+}
+/* hero image */
+#hero {
+    height: 800px;
+    width: 100%;
+    background: url("../images/hero_image.jpg") center center/cover;
+    
 }
 
-#hero {
-    height: 400px;
-    width: 100%;
-    background: url("../assets/images/hero_image.jpg") no-repeat center center/cover;
-    position: relative;
+/** Nav place in top right corner**/
+nav {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 2;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 1rem 1rem;
+    
+}
+
+nav a {
+    color: #e34d4d;
+    text-decoration: none;
+    padding: 2rem 1.2rem;
+    font-size: 1.2rem;
 }

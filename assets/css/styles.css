@@ -17,8 +17,16 @@ li {
 #hero {
     height: 800px;
     width: 100%;
-    background: url("../images/hero_image.jpg") center center/cover;
-    
+    background: url("../images/hero_image.jpg") center center/cover;   
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 2;
+    font-family: ;
+    font-size: 200%;
 }
 
 /** Nav place in top right corner**/
@@ -43,7 +51,7 @@ nav a {
     font-size: 1.2rem;
 }
 
-
+/* Centers the social media logos*/
 .social-links {
     text-align: center;
     display: flex;

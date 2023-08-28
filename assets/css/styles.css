@@ -9,6 +9,7 @@ body {
     text-align: center;
     
 }
+
 /* removes the dot in the lists */
 li {
     list-style-type: none; 
@@ -51,6 +52,8 @@ nav a {
     font-size: 1.2rem;
 }
 
+
+
 /* Centers the social media logos*/
 .social-links {
     text-align: center;
@@ -59,3 +62,4 @@ nav a {
     list-style-type: none;
     
 }
+

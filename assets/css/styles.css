@@ -52,6 +52,18 @@ nav a, #menu a {
     color: firebrick;
 }
 
+
+
+img {
+    max-width: 50%;
+    height: auto;
+    padding: 20px 0 15px 0;
+}
+
+
+
+
+
 #link {
     color: firebrick;
     text-decoration: none; /* Removes the underline */
@@ -77,13 +89,9 @@ nav a, #menu a {
 #gear,
 #tips,
 #contact {
-    padding: 1rem 0;
+    padding: 0.5rem 0;
     text-align: center;
 
-}
-/* About image*/
-#about {
-    max-width: 100vw;
 }
 
 

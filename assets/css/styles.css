@@ -26,13 +26,10 @@ nav {
     padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
-    
-    
-    
-   
-    
 }
-
+main {
+    padding-top: 60px;  /* Adjust this value based on the height of your header */
+}
 
 
 /* Nav toggle */
@@ -80,9 +77,8 @@ img {
 
 /* hero image */
 #hero {
-    height: 800px;
-    width: 100%;
-    background: url("../images/hero_image.jpg") center center/cover; /* Image from pexels.com*/
+    height: 50vh; /* changes from a fixed 800px to 50% of the viewport height */
+    background: url("../images/hero_image.jpg") center center/cover no-repeat; 
 }
 
 /* Distance between the sections */
@@ -123,7 +119,9 @@ h1 {
 
 /* On screens larger than 576px and up) */
 @media screen and (min-width: 576px) {
-
+    #hero {
+        height: 60vh; 
+    }
    
 
 
@@ -151,6 +149,9 @@ h1 {
 
     .nav_toggle_label {
         display: none;
+    }
+    #hero {
+        height: 70vh; 
     }
 
 }

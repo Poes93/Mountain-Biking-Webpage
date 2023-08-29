@@ -1,8 +1,12 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: #f29b3d;
     color: #191919;
-    font-family: 'Garamond', sans-serif;
-    /* Font family wont update */
+    font-family: 'Noto Sans', sans-serif;
 }
 
 header {
@@ -28,11 +32,10 @@ nav {
     display: none;
 }
 main {
-    padding-top: 60px;  /* Adjust this value based on the height of your header */
+    padding-top: 75px;  /* Adjust this value based on the height of your header and pushing down the hero image under the nav menu */
 }
 
-
-/* Nav toggle */
+/* Nav toggle */ 
 #nav_toggle:checked~nav {
     display: block;
 }
@@ -51,17 +54,12 @@ nav a, #menu a {
     color: firebrick;
 }
 
-
-
 img {
-    max-width: 100%;
+    max-width: 90%;
     height: auto;
     padding: 20px 0 15px 0;
+    border-radius: 15px; /* Should make the images corners rounded. Dosen't work currently */
 }
-
-
-
-
 
 #link {
     color: firebrick;
@@ -77,8 +75,10 @@ img {
 
 /* hero image */
 #hero {
-    height: 50vh; /* changes from a fixed 800px to 50% of the viewport height */
+    height: 50vh; /*  50% of the viewport height */
     background: url("../images/hero_image.jpg") center center/cover no-repeat; 
+   
+    
 }
 
 /* Distance between the sections */
@@ -93,7 +93,6 @@ img {
     margin: auto;
 
 }
-
 
 /* removes the dot in the lists */
 li {
@@ -111,10 +110,14 @@ h1 {
     margin-left: 20px;
 }
 
-
-
-
-
+/*Social link */
+.social_links {
+    justify-content: space-evenly;
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    
+}
 
 
 /* On screens larger than 576px and up) */
@@ -122,9 +125,6 @@ h1 {
     #hero {
         height: 60vh; 
     }
-   
-
-
 }
 
 /* On screens larger than (768px and up) */

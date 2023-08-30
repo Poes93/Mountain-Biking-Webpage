@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
 }
@@ -31,31 +32,35 @@ nav {
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
 }
+
 main {
-    padding-top: 75px;  /* Adjust this value based on the height of your header and pushing down the hero image under the nav menu */
+    padding-top: 75px;
+    /* Adjust this value based on the height of your header and pushing down the hero image under the nav menu */
 }
 
-/* Nav toggle */ 
+/* Nav toggle */
 #nav_toggle:checked~nav {
     display: block;
 }
 
 #nav_toggle {
     display: none;
+
 }
 
 .nav_toggle_label {
-    font-size: 1rem;
-    
+    font-size: 2rem;
+    margin-right: 20px;
 }
 
-nav a, #menu a {
+nav a,
+#menu a {
     text-decoration: none;
     color: firebrick;
 }
 
 img {
-    max-width: 90%;
+    width: 100%;  /* or max-width: 100%; based on your needs */
     height: auto;
     padding: 20px 0 15px 0;
     border-radius: 15px; /* Should make the images corners rounded. Dosen't work currently */
@@ -63,22 +68,22 @@ img {
 
 #link {
     color: firebrick;
-    text-decoration: none; /* Removes the underline */
+    text-decoration: none;
+    /* Removes the underline */
 }
 
-
 #menu {
-    font-size: 100%;
+    font-size: 1.5rem;
     list-style-type: none;
-    
 }
 
 /* hero image */
 #hero {
-    height: 50vh; /*  50% of the viewport height */
-    background: url("../images/hero_image.jpg") center center/cover no-repeat; 
-   
-    
+    height: 50vh;
+    /*  50% of the viewport height */
+    max-width: auto;
+    background: url("../images/hero_image.jpg") center center/cover no-repeat;
+    background-size: cover; /* Ensure the image covers the entire element */
 }
 
 /* Distance between the sections */
@@ -91,7 +96,6 @@ img {
     text-align: center;
     max-width: 70vw;
     margin: auto;
-
 }
 
 /* removes the dot in the lists */
@@ -107,7 +111,8 @@ li {
 /* Makes the title uppercase */
 h1 {
     text-transform: uppercase;
-    margin-left: 20px;
+    margin-left: 30px;
+    
 }
 
 /*Social link */
@@ -116,22 +121,47 @@ h1 {
     list-style-type: none;
     text-align: center;
     display: flex;
+
+}
+
+form {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1rem;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    background-color: firebrick;
+    border-radius: 15px;
+    font-size: 130%;
     
 }
 
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    width: 100%;
+    padding: 0.5rem;
+    
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    font-size: 1rem;
+    font-family: 'Noto Sans', sans-serif;
+}
 
 /* On screens larger than 576px and up) */
 @media screen and (min-width: 576px) {
     #hero {
-        height: 60vh; 
+        height: 30vh;
+    }
+    h1 {
+        font-size: 1.1rem; 
     }
 }
 
 /* On screens larger than (768px and up) */
 @media screen and (min-width: 768px) {
 
-    Header
-    nav {
+    Header nav {
         display: block;
         position: relative;
         box-shadow: none;
@@ -149,9 +179,11 @@ h1 {
 
     .nav_toggle_label {
         display: none;
+        
     }
+
     #hero {
-        height: 70vh; 
+        height: 70vh;
     }
 
 }

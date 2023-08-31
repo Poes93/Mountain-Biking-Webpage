@@ -6,40 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Mountainbiking, tips, gears, trails, adventure">
     <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&display=swap" rel="stylesheet">
-    <title id="title_name">Mountain Biking Adventure</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200&display=swap" rel="stylesheet">
+    <title>Mountain Biking Adventure</title>
 </head>
 
 <body>
     <header>
-        <a id="link" href="index.html">
+        <!-- Header text -->
+        <a href="#hero">
             <h1>Mountain Biking Adventure</h1>
         </a>
 
-        <input type="checkbox" id="nav_toggle" name="nav_toggle"> <!-- Nav menu toggle-->
-        <label for="nav_toggle" class="nav_toggle_label">
+        <!--Navbar toggle menu-->
+        <input type="checkbox" id="nav-toggle" name="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label">
             <i class="fa-solid fa-bars"></i>
         </label>
-
         <nav>
+            <ul id="navbar">
 
-            <ul id="menu">
-                <li><a href="#about" aria-label="about">About</a></li>
-                <li><a href="#trails" aria-label="trails">Trails</a></li>
-                <li><a href="#gear" aria-label="gear">Gear</a></li>
-                <li><a href="#tips" aria-label="tips">Tips</a></li>
-                <li><a href="#contact" aria-label="contact">Contact</a></li>
-
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#trails">Trails</a></li>
+                <li><a href="#gear">Gear</a></li>
+                <li><a href="#tips">Tips</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
+
     </header>
 
     <main>
         <div id="hero"> <!-- Hero Image--> </div>
 
-        <section id="about">
+        <!-- About Section -->
 
-            <h3>About Mountain Biking: A Thrilling Adventure on Two Wheels</h3>
+        <section id="about">
+            <h5>About Mountain Biking: A Thrilling Adventure on Two Wheels</h5>
 
             <p>Mountain biking isn't just a sport; it's a way of life that immerses riders in the heart of nature's
                 challenges and wonders. It's a unique blend of adrenaline, skill, and camaraderie that draws enthusiasts
@@ -70,48 +73,36 @@
 
 
         </section>
+
+        <!-- Trails and destinations Section -->
+
         <section id="trails">
-            <h3>Trails and Destinations</h3>
-            <p>
-            <h3>About Mountain Biking: A Thrilling Adventure on Two Wheels</h3>
+            <h5>Trails & Destinations: Your Path to Mountain Biking Euphoria </h5>
 
-            <p>Mountain biking isn't just a sport; it's a way of life that immerses riders in the heart of nature's
-                challenges and wonders. It's a unique blend of adrenaline, skill, and camaraderie that draws enthusiasts
-                to conquer rugged terrains, steep ascents, and exhilarating descents. Whether you're a beginner seeking
-                the thrill of your first trail or an experienced rider pushing your limits, mountain biking offers an
-                experience like no other.</p>
+            <h4>1. The Moab Trails, Utah, USA</h4>
+            <p>Touted as the 'Mecca' of mountain biking, Moab is where slickrock trails meet dramatic red rock
+                landscapes. From the world-famous <strong>Slickrock Trail</strong> to the adventurous <strong>Porcupine
+                    Rim</strong>, Moab offers terrains that challenge and landscapes that leave riders in awe.</p>
 
-            <h4>History and Evolution</h4>
+            <h4>2. Whistler, British Columbia, Canada</h4>
+            <p>Whistler isn't just a winter paradise. Come summer, the snow makes way for an expansive network of trails
+                making it a mountain biker's dreamland. <strong>Whistler Bike Park</strong> is a standout, with
+                well-maintained tracks and routes that cater to beginners and pros alike.</p>
 
-            <p>Mountain biking traces its roots back to the 1970s when a group of passionate riders started modifying
-                their bicycles to tackle off-road trails. This early exploration laid the foundation for the diverse and
-                dynamic sport we know today. As technology advanced, specialized mountain bikes were developed,
-                featuring robust frames, suspension systems, and innovative components to enhance performance on rough
-                terrain. Disciplines like cross-country, downhill, enduro, and freeride emerged, each requiring distinct
-                skills and techniques.</p>
-
-            <h4>A Connection with Nature</h4>
-
-            <p>One of the core appeals of mountain biking is the intimate connection it provides with the natural world.
-                Trails wind through lush forests, across alpine meadows, and along breathtaking ridges. Riders witness
-                changing landscapes, encounter wildlife, and experience the tranquility of remote environments that few
-                get to explore. The rhythmic cadence of pedaling, the rush of wind, and the scent of pine trees all
-                contribute to an immersive experience that rejuvenates the spirit.</p>
-
-            <h4>Trails and Destinations</h4>
-
-            <p>Embark on trails that lead to captivating destinations. From the challenging slopes of the Rocky
-                Mountains to the serene coastal paths, the possibilities are endless. Explore winding forest trails,
-                conquer rocky terrains, and bask in the stunning vistas that reward your efforts. Whether you seek the
-                heart-pounding rush of downhill descents or the meditative rhythm of cross-country journeys, mountain
-                biking opens doors to breathtaking destinations that touch both the soul and the senses.</p>
+            <h4>3. The Kingdom Trails, Vermont, USA</h4>
+            <p>Bridging the gap between serene countryside rides and challenging terrains, The Kingdom Trails are a
+                mosaic of over 100 miles of interconnected trails. Whether it's the mellowness of the Darling Hill or
+                the ruggedness of the Burke Mountain, there's a trail for every soul here.</p>
 
             <!-- Continue adding more sections as needed -->
 
             <img src="assets/images/trails_image.jpeg" alt="pathway crossings">
         </section>
+
+        <!-- Gear and Equipment Section -->
+
         <section id="gear">
-            <h3>Gear and Equipment</h3>
+            <h5>Gear and Equipment</h5>
             <ul>
                 <li><strong>Mountain Bike:</strong> Choose a bike that suits your riding style. Full-suspension bikes
                     are great for challenging terrain, while hardtails are versatile and efficient on smoother trails.
@@ -134,8 +125,11 @@
             </ul>
             <img src="assets/images/gears_image.jpeg" alt="bike on dirt road">
         </section>
+
+        <!-- Tips and Techniques Section -->
+
         <section id="tips">
-            <h3>Tips and Techniques</h3>
+            <h5>Tips and Techniques</h5>
             <ul>
                 <li><strong>Body Positioning:</strong> Maintain a balanced stance with elbows slightly bent and knees
                     flexed. Shift your weight according to terrain changes for better control. Proper body positioning
@@ -156,24 +150,38 @@
             </ul>
             <img src="assets/images/tips_image.jpeg" alt="bike on back wheel">
         </section>
+
+        <!-- Contact Section -->
+
         <section id="contact">
-            <h3>Contact</h3>
-            <p>Contact us for any information</p>
-            <div id="contact_form">
-                <form id="survey-form" action="https://formdump.codeinstitute.net/">
-                    <br>
-                    <label for="name" id="name-label">Name</label>
-                    <input type="text" id="name" name="name" placeholder="Name" required>
-                    <br>
-                    <label for="email" id="email-label">Email</label>
-                    <input type="email" id="email" name="email" placeholder="Email" required>
-                    <br>
-                    <label for="question">Ask us anything: </label>
-                    <textarea id="question" name="question" rows="3" cols="30" placeholder="Your message"></textarea>
-                    <br>
-                    <button type="submit" class="join-button">Get in contact!</button>
-                </form>
-            </div>
+            <h5>Contact</h5>
+            <p>"At Mountain Bike Adventure, our mountain biking adventures are not just about the thrill of the ride,
+                but
+                also the connection we build with our community. While our website provides a wealth of information, we
+                understand that each adventurer has a unique journey in mind. Perhaps you have specific questions about
+                a trail, need details about equipment, or are considering a personalized biking experience tailored just
+                for you. Maybe you'd like to provide feedback from a recent adventure or share a suggestion that could
+                enhance our offerings. Safety is paramount in our adventures, and we're here to address any concerns you
+                might have about our equipment, procedures, or routes. And as we grow and evolve, we're always eager to
+                hear from potential collaborators, partners, and even those looking to join our team. Our 'Contact Us'
+                form is more than just a link. it's an open channel for dialogue, ensuring your voice is heard and your
+                adventure is unforgettable. We invite you to reach out. Let's make your mountain biking dreams a reality
+                together."</p>
+
+            <form id="survey-form" action="https://formdump.codeinstitute.net/">
+                <br>
+                <label for="name" id="name-label"><strong>Name</strong></label>
+                <input type="text" id="name" name="name" placeholder="Name" required>
+                <br>
+                <label for="email" id="email-label"><strong>Email</strong></label>
+                <input type="email" id="email" name="email" placeholder="Email" required>
+                <br>
+                <label for="question"><strong>Ask us anything:</strong></label>
+                <textarea id="question" name="question" rows="3" cols="30" placeholder="Your message"></textarea>
+                <br>
+                <button type="submit" class="join-button">Get in contact!</button>
+            </form>
+
         </section>
 
     </main>

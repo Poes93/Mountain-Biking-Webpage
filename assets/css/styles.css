@@ -1,95 +1,92 @@
-html,
-body {
-    margin: 0;
-    padding: 0;
-}
-
 body {
     background-color: #f29b3d;
     color: #191919;
     font-family: 'Noto Sans', sans-serif;
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0;
 }
 
+/* Header menu */
 header {
     background-color: #f29b3d;
+    padding: 0 1rem;
     position: fixed;
-    z-index: 100;
+    z-index: 99;
     width: 100%;
-    height: 90px;
-    box-shadow: 4px 0 4px #7a7373;
+    box-shadow: 0 2px 2px #6B6B6B;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    top: 0;
+    display: flex;
 }
 
-/* Navbar styles with dropdown toggle */
+/* Title text */
+header a {
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 20px;
+    color: firebrick;
+}
+
+#navbar {
+    font-size: 100%;
+    letter-spacing: 2px;
+    list-style-type: none;
+}
+
+#navbar>li {
+    margin-bottom: 1em;
+}
+
+/* Navbar style with dropdown toggle */ 
 nav {
     position: absolute;
-    background-color: inherit;
+    background-color: #f29b3d;
     width: 100%;
     left: 0;
     padding: 0 1rem;
-    box-shadow: 0 2px 2px #3a3a3a;
-    display: none;
-    height: 80px
-}
-
-main {
-    padding-top: 75px;
-    /* Adjust this value based on the height of your header and pushing down the hero image under the nav menu */
-}
-
-/* Nav toggle */
-#nav_toggle:checked~nav {
+    box-shadow: 0 2px 2px #6B6B6B;
     display: block;
+    top: 100%;    
 }
 
-#nav_toggle {
+/* Collapsible menu for mobile */
+#nav-toggle:checked~nav {
     display: none;
-
 }
 
-.nav_toggle_label {
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
     font-size: 2rem;
-    margin-right: 20px;
-    color: firebrick;
+    padding-top: 10px;
+    margin-right: 25px;
 }
 
-nav a,
-#menu a {
-    text-decoration: none;
-    color: firebrick;
-}
-
+/* Section images */
 img {
     width: 100%;
-    /* or max-width: 100%; based on your needs */
     height: auto;
     padding: 20px 0 15px 0;
     border-radius: 15px;
     /* Should make the images corners rounded. Dosen't work currently */
 }
 
+/* Removes the underline in the header */
 #link {
     color: firebrick;
     text-decoration: none;
-    /* Removes the underline */
-}
-
-#menu {
-    font-size: 1.5rem;
-    list-style-type: none;
 }
 
 /* hero image */
 #hero {
     height: 50vh;
-    /*  50% of the viewport height */
     max-width: auto;
     background: url("../images/hero_image.jpg") center center/cover no-repeat;
-    background-size: cover;
-    /* Ensure the image covers the entire element */
+    background-size: cover;    
 }
 
 /* Distance between the sections */
@@ -98,31 +95,26 @@ img {
 #gear,
 #tips,
 #contact {
-padding: 0.5rem 0;
-text-align: center;
-max-width: 70vw;
-margin: auto;
-}
 
+    max-width: 70vw; 
+    margin: auto;
+
+}
 
 /* removes the dot in the lists */
 li {
     list-style-type: none;
 }
 
-/* Distance between nav menu listings */
-#menu>li {
-    margin-bottom: 1em;
+
+
+/* Makes each section of content more separated by increasing the size */
+h4 {
+    font-size: 1.5rem;
 }
 
-/* Title */
-h1 {
-    text-transform: uppercase;
-    margin-left: 30px;
-    font-size: 4vw;
-    
-
-
+h5 {
+    font-size: 2rem;
 }
 
 /*Social link */
@@ -132,9 +124,9 @@ h1 {
     text-align: center;
     display: flex;
     margin-bottom: 10px;
-
 }
 
+/* Form design */
 form {
     max-width: 600px;
     margin: 2rem auto;
@@ -145,7 +137,7 @@ form {
     font-size: 130%;
 
 }
-
+/* Survey form style */
 #survey-form input[type="text"],
 #survey-form input[type="email"],
 #survey-form textarea {
@@ -159,12 +151,18 @@ form {
     border-radius: 5px;
 }
 
+/* text color for the form */
+#survey-form>label {
+    color: white;
+}
+
+/*Survey form */
 #survey-form button.join-button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
     background-color: firebrick;
-    color: #191919;
+    color: #ffffff;
     font-size: 1rem;
 }
 
@@ -173,46 +171,62 @@ form {
 }
 
 
+/* On screens larger than 480px and up) */
+@media (min-width: 480px) {
+
+    /* Head styling */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+        margin-top: 0;
+    }
+
+    #navbar {
+        display: flex;
+        letter-spacing: 1px;
+        
+    }
+
+    #navbar>li {
+        
+        margin-right: 20px;
+    }
+
+    .nav-toggle-label {
+        display: none;
+       
+    }
+
+    h1 {
+        font-size: 1vw;
+    }
+
+
 /* On screens larger than 576px and up) */
 @media screen and (min-width: 576px) {
     #hero {
         height: 30vh;
     }
-
     h1 {
-        font-size: 1.4rem;
+        font-size: 2vw;
     }
+
+    
 }
 
 /* On screens larger than (768px and up) */
 @media screen and (min-width: 768px) {
 
-    Header nav {
-        display: block;
-        position: relative;
-        box-shadow: none;
-        width: fit-content;
-        padding-right: 3rem;
-    }
-
-    #menu {
-        display: flex;
-    }
-
-    #menu>li {
-        padding-left: 1rem;
-    }
-
-    .nav_toggle_label {
-        display: none;
-
-    }
-
+    
     #hero {
         height: 70vh;
     }
-
     h1 {
-        font-size: 2rem;
+        font-size: 3vw;
     }
+
+}
 }

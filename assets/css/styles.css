@@ -1,3 +1,4 @@
+/* Body */
 body {
     background-color: #f29b3d;
     color: #191919;
@@ -27,20 +28,22 @@ header a {
     text-transform: uppercase;
     margin-left: 20px;
     color: firebrick;
-    
+
 }
 
+/* Nav bar */
 #navbar {
     font-size: 100%;
     letter-spacing: 2px;
     list-style-type: none;
 }
 
+/* Distance in the nav list */
 #navbar>li {
     margin-bottom: 1em;
 }
 
-/* Navbar style with dropdown toggle */ 
+/* Navbar style with dropdown toggle */
 nav {
     position: absolute;
     background-color: #f29b3d;
@@ -49,7 +52,7 @@ nav {
     padding: 0 1rem;
     box-shadow: 0 2px 2px #6B6B6B;
     display: block;
-    top: 100%;    
+    top: 100%;
 }
 
 /* Collapsible menu for mobile */
@@ -65,7 +68,6 @@ nav {
     font-size: 2rem;
     padding-top: 10px;
     margin-right: 25px;
-    
 }
 
 /* Section images */
@@ -88,27 +90,23 @@ img {
     height: 50vh;
     max-width: auto;
     background: url("../images/hero_image.jpg") center center/cover no-repeat;
-    background-size: cover;    
+    background-size: cover;
 }
 
-/* Distance between the sections */
+/* width of the sections */
 #about,
 #trails,
 #gear,
 #tips,
 #contact {
-
-    max-width: 70vw; 
+    max-width: 70vw;
     margin: auto;
-
 }
 
 /* removes the dot in the lists */
 li {
     list-style-type: none;
 }
-
-
 
 /* Makes each section of content more separated by increasing the size */
 h4 {
@@ -137,8 +135,8 @@ form {
     background-color: firebrick;
     border-radius: 15px;
     font-size: 130%;
-
 }
+
 /* Survey form style */
 #survey-form input[type="text"],
 #survey-form input[type="email"],
@@ -168,10 +166,10 @@ form {
     font-size: 1rem;
 }
 
+/* Centers the contact form */
 #contact_form {
     justify-content: center;
 }
-
 
 /* On screens larger than 480px and up) */
 @media (min-width: 480px) {
@@ -189,40 +187,28 @@ form {
     #navbar {
         display: flex;
         letter-spacing: 1px;
-        
     }
 
     #navbar>li {
-        
         margin-right: 20px;
     }
 
     .nav-toggle-label {
         display: none;
-       
+
     }
 
-   
-
-
-/* On screens larger than 576px and up) */
-@media screen and (min-width: 576px) {
-    #hero {
-        height: 30vh;
+    /* On screens larger than 576px and up) */
+    @media screen and (min-width: 576px) {
+        #hero {
+            height: 30vh;
+        }
     }
-   
 
-    
-}
-
-/* On screens larger than (768px and up) */
-@media screen and (min-width: 768px) {
-
-    
-    #hero {
-        height: 70vh;
+    /* On screens larger than (768px and up) */
+    @media screen and (min-width: 768px) {
+        #hero {
+            height: 70vh;
+        }
     }
-   
-
-}
 }

@@ -65,6 +65,7 @@ nav {
     font-size: 2rem;
     padding-top: 10px;
     margin-right: 25px;
+    
 }
 
 /* Section images */
@@ -201,9 +202,7 @@ form {
        
     }
 
-    h1 {
-        font-size: 1vw;
-    }
+   
 
 
 /* On screens larger than 576px and up) */
@@ -211,9 +210,7 @@ form {
     #hero {
         height: 30vh;
     }
-    h1 {
-        font-size: 2vw;
-    }
+   
 
     
 }
@@ -225,9 +222,7 @@ form {
     #hero {
         height: 70vh;
     }
-    h1 {
-        font-size: 3vw;
-    }
+   
 
 }
 }

@@ -71,7 +71,7 @@ If intrigued, proceed to "Contact" to get in touch for more information.
 Returning Visitors
 Stay Updated: Regular visitors can look forward to updated lists of trails and fresh tips, ensuring there’s always something new to explore.
 Share and Connect: The "Contact" section isn't just for queries; it's for sharing your experiences, giving feedback, and even submitting trail recommendations.
-Journey:
+
 
 ## Design
 
@@ -109,7 +109,11 @@ https://www.pexels.com/photo/photo-of-pathway-surrounded-by-fir-trees-1578750/
 
 ### Wireframes
 
-Add the images or links for your wireframes here.
+![Home](documentation/home.png)
+![Trails](documentation/trails.png)
+![Gear](documentation/gear.png)
+![Tips](documentation/tips.png)
+![Contact](documentation/contact.png)
 
 
 
@@ -144,7 +148,7 @@ For a preview of the website on different screens
   * Times and schedules
   * Better allignment of the navbar to title text
   * Better allignemnt of the text sections 
-
+  * Style the form section to better match the rest of the website 
 
 ### Accessibility
 
@@ -174,10 +178,7 @@ Visual Studio Code - IDE
 
 Pexel.com - For images
 
-Favicon - Bar menu
-
 Am I responsive? - To show the image on different devices
-
 
 ## Deployment & Local Development
 
@@ -228,34 +229,35 @@ W3C Validator
 
 * When opening the page on iPhone the nav menu is already open.
 
-* Scaling for Hero image and position may differ on webrowser but also needs more adjustment on phone
+* Scaling for Hero image and position may differ on webrowser but also needs more adjustment on phone.
 
 * Header text wont adjust evenly when on different OS.
 
 * When pressing the links as the header is always on top and the links goes to the section header, it will be hidden under the header.
 
+* Some issues with scaling the nav bar that it sometimes disapears. Reload the page will solve that issue for now.
 
 
 ## Credits
 
 ### Code Used
-I've used parts of Love Running nav menu and media querries 
+I've used parts of Love Running nav menu and media querries.
+ <!--Sections marked in code-->
 
 ### Content
 The text content is generated with Chat-GPT 4
+ <!---->
 
 ###  Media
-For pictures
-Pexels.com
+The picture I have taken from Pexels.com.
 https://www.pexels.com/photo/silhouette-photography-of-biker-on-top-of-hill-1619299/
 https://www.pexels.com/photo/man-in-black-and-orange-bicycle-riding-jacket-with-green-off-road-bike-90454/
 https://www.pexels.com/photo/man-in-white-and-green-raglan-elbow-sleeved-shirt-biking-at-daytime-733743/
 https://www.pexels.com/photo/photo-of-pathway-surrounded-by-fir-trees-1578750/
 
-Favicon - for the Bars in the menu
 
-  
 ###  Acknowledgments
 
-Thank you Carolina Leguizamon for the help during this project
+Thank you Carolina Leguizamon for the help during this project and also to my mentor Jubril Akolade
+
 

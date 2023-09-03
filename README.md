@@ -4,6 +4,7 @@ I build this website for my first project (Project 1) at Code Institute Aug 2023
 
 https://poes93.github.io/Mountain-Biking-Webpage/
 
+![amiresponsive](documentation/amiresposive.png)
 
 ---
 
@@ -86,13 +87,15 @@ The colors used in the website are:
 * #ffffff (or simply white): Used as the text color for the join-button inside the survey form.
 * And the primarily used palette that consists of oranges (like #f29b3d), dark colors (like #191919 and #6B6B6B), and the "firebrick" color (#B22222).
 
+![color palette](documentation/color_palette.png)
+
 ### Typography
 
 I've used googles font Noto Sans
 
 [Google Fonts](https://fonts.google.com/) https://fonts.google.com/noto/specimen/Noto+Sans?query=noto+sans
 
-
+![Font](documentation/google_font.png)
 
 
 ### Imagery
@@ -151,6 +154,12 @@ For a preview of the website on different screens
 
 ## Technologies Used
 
+### Languages Used
+
+HTML and CSS were used to create this website.
+
+### Frameworks, Libraries & Programs Used
+
 Balsamiq - Used to create wireframe.
 
 Github - To save and store the files for the website.
@@ -165,20 +174,12 @@ Visual Studio Code - IDE
 
 Pexel.com - For images
 
+Favicon - Bar menu
 
-### Languages Used
+Am I responsive? - To show the image on different devices
 
-HTML and CSS were used to create this website.
-
-### Frameworks, Libraries & Programs Used
-
-
-
-Fontawesome
 
 ## Deployment & Local Development
-
-👩🏻‍💻 View an example of a completed Deployment & Local Development section [here](https://github.com/kera-cudmore/TheQuizArms#Deployment)
 
 ### Deployment
 
@@ -214,15 +215,14 @@ Type 'git clone' into the terminal and then paste the link you copied in step 3.
 
 ## Testing
 
-![Colour Scheme](https://ibb.co/wJCBVPT)
+W3C Validator
+![HTML](documentation/html_validator.png)
 
-https://ibb.co/wJCBVPT
-https://ibb.co/0yz6qDt
-https://ibb.co/v3WDHDm
-https://ibb.co/DVGBQFy
-https://ibb.co/yWL6gGV
-https://ibb.co/LhkQf71
-https://ibb.co/94pQj45
+![CSS](documentation/css_validator.png)
+
+![Lighthouse Computer](documentation/lighthouse_computer.png)
+
+![Lighthouse Mobile](documentation/lighthouse_mobile.png)
 
 ### Bugs
 
@@ -252,10 +252,10 @@ https://www.pexels.com/photo/man-in-black-and-orange-bicycle-riding-jacket-with-
 https://www.pexels.com/photo/man-in-white-and-green-raglan-elbow-sleeved-shirt-biking-at-daytime-733743/
 https://www.pexels.com/photo/photo-of-pathway-surrounded-by-fir-trees-1578750/
 
+Favicon - for the Bars in the menu
 
   
 ###  Acknowledgments
 
-Thank you 
-Carolina Leguizamon 
+Thank you Carolina Leguizamon for the help during this project
 

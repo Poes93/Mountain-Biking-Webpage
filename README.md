@@ -2,8 +2,6 @@
 
 I build this website for my first project (Project 1) at Code Institute Aug 2023
 
-[amiresponsive](https://ui.dev/amiresponsive?url=https://poes93.github.io/Mountain-Biking-Webpage/)
-
 https://poes93.github.io/Mountain-Biking-Webpage/
 
 
@@ -72,34 +70,21 @@ If intrigued, proceed to "Contact" to get in touch for more information.
 Returning Visitors
 Stay Updated: Regular visitors can look forward to updated lists of trails and fresh tips, ensuring there’s always something new to explore.
 Share and Connect: The "Contact" section isn't just for queries; it's for sharing your experiences, giving feedback, and even submitting trail recommendations.
-Community: Over time, we aim to add a blog and community forums to foster a strong sense of community among site members.
 Journey:
-
-Return to familiar sections for updates or to re-read favorite parts.
-Check the "Contact" section for any new updates or community events.
-Use the “Contact” form to share experiences, feedback, or queries.
-Accessibility
-
-Given the emphasis on outdoor activities and the physical nature of mountain biking, we’ve taken extra care to make sure the website is accessible. This includes:
-
-Semantic HTML tags for better screen reader compatibility.
-Descriptive aria-label attributes for all navigational elements and important links.
-Responsive design to ensure a seamless experience across all devices.
 
 ## Design
 
 ### Colour Scheme
 
-
 The colors used in the website are:
 
-#f29b3d: Used as the background color for the body, header, and the nav bar.
-#191919: Used as the color for the main text in the body.
-#6B6B6B: Used for the box-shadow.
-firebrick: Used for the header links and the background color and text color of the form.
-#f6f6f6: Used as the border color for the form input fields.
-#ffffff (or simply white): Used as the text color for the join-button inside the survey form.
-And the primarily used palette that consists of oranges (like #f29b3d), dark colors (like #191919 and #6B6B6B), and the "firebrick" color (#B22222).
+* #f29b3d: Used as the background color for the body, header, and the nav bar.
+* #191919: Used as the color for the main text in the body.
+* #6B6B6B: Used for the box-shadow.
+* firebrick: Used for the header links and the background color and text color of the form.
+* #f6f6f6: Used as the border color for the form input fields.
+* #ffffff (or simply white): Used as the text color for the join-button inside the survey form.
+* And the primarily used palette that consists of oranges (like #f29b3d), dark colors (like #191919 and #6B6B6B), and the "firebrick" color (#B22222).
 
 ### Typography
 
@@ -123,7 +108,6 @@ https://www.pexels.com/photo/photo-of-pathway-surrounded-by-fir-trees-1578750/
 
 Add the images or links for your wireframes here.
 
-There are lots of different options to create your wireframes - Code Institute students can access [Balsamiq](https://balsamiq.com/) as part of the course.
 
 
 ## Features
@@ -145,35 +129,25 @@ The website is a one page website, with links to the different sections of the p
 
 * Social media links in the bottom of the website
 
+### General features on each page
+
+For a preview of the website on different screens
+[amiresponsive](https://ui.dev/amiresponsive?url=https://poes93.github.io/Mountain-Biking-Webpage/)
+
+### Future Implementations
+
 * Future Implementations.
   * More sections and information
   * Times and schedules
   * Better allignment of the navbar to title text
   * Better allignemnt of the text sections 
 
-  
-### General features on each page
-
-If there is a feature that appears on all pages of your site, include it here. Examples of what to include would the the navigation, a footer and a favicon.
-
-I then like to add a screenshot of each page of the site here, i use [amiresponsive](https://ui.dev/amiresponsive) which allows me to grab an image of the site as it would be displayed on mobile, tablet and desktop, this helps to show the responsiveness of the site.
-
-### Future Implementations
-
-I want to adding more section, maybe some times the trails would be at
-
-Fixing the bugs 
-
 
 ### Accessibility
 
-
-This is the place to make a note of anything you have done with accessibility in mind. Some examples include:
-
-Have you used icons and added aria-labels to enable screen readers to understand these?
-Have you ensured your site meets the minimum contrast requirements?
-Have you chosen fonts that are dyslexia/accessible friendly?
-
+* Icons with ARIA labels: To ensure that screen readers can understand the content 
+* Contrast Requirements: The use of easy colors and easy to read and see elements
+* Dyslexia/Accessible Friendly Fonts: The font used is easy to read
 
 ## Technologies Used
 
@@ -187,6 +161,10 @@ Font Awesome - For the iconography on the website.
 
 Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
 
+Visual Studio Code - IDE
+
+Pexel.com - For images
+
 
 ### Languages Used
 
@@ -194,13 +172,8 @@ HTML and CSS were used to create this website.
 
 ### Frameworks, Libraries & Programs Used
 
-Add any frameworks, libraries or programs used while creating your project.
-For this project ive used
-Visual Studio Code 
-Pexel.com
-GitHub
-Amiresponsive
-Google Font
+
+
 Fontawesome
 
 ## Deployment & Local Development
@@ -240,6 +213,16 @@ Open the terminal in your code editor and change the current working directory t
 Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
 
 ## Testing
+
+![Colour Scheme](https://ibb.co/wJCBVPT)
+
+https://ibb.co/wJCBVPT
+https://ibb.co/0yz6qDt
+https://ibb.co/v3WDHDm
+https://ibb.co/DVGBQFy
+https://ibb.co/yWL6gGV
+https://ibb.co/LhkQf71
+https://ibb.co/94pQj45
 
 ### Bugs
 

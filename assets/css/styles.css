@@ -22,13 +22,20 @@ header {
     display: flex;
 }
 
+h1 {
+    font-size: 4vw; 
+}
+
 /* Title text */
 header a {
     text-decoration: none;
     text-transform: uppercase;
     margin-left: 20px;
     color: firebrick;
+}
 
+main {
+    padding-top: 100px;
 }
 
 /* Nav bar */
@@ -51,13 +58,13 @@ nav {
     left: 0;
     padding: 0 1rem;
     box-shadow: 0 2px 2px #6B6B6B;
-    display: block;
+    display: none;
     top: 100%;
 }
 
 /* Collapsible menu for mobile */
 #nav-toggle:checked~nav {
-    display: none;
+    display: block;
 }
 
 #nav-toggle {

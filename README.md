@@ -115,8 +115,6 @@ https://www.pexels.com/photo/photo-of-pathway-surrounded-by-fir-trees-1578750/
 ![Tips](documentation/tips.png)
 ![Contact](documentation/contact.png)
 
-
-
 ## Features
 
 The website is a one page website, with links to the different sections of the page
@@ -227,11 +225,13 @@ W3C Validator
 
 ### Bugs
 
-* When opening the page on iPhone the nav menu is already open.
+These are the current bugs on the website. I can't seem to find out how to currently solve them but they most goes down to the Navbar and header part
+
+* When opening the page on mobile the nav menu is already open and to close it one need to press the bars to close the menu. Same when pressing the links, the menu wont disapear automatically. 
 
 * Scaling for Hero image and position may differ on webrowser but also needs more adjustment on phone.
 
-* Header text wont adjust evenly when on different OS.
+* Header text wont adjust evenly when on different screen sizes.
 
 * When pressing the links as the header is always on top and the links goes to the section header, it will be hidden under the header.
 
@@ -242,18 +242,17 @@ W3C Validator
 
 ### Code Used
 I've used parts of Love Running nav menu and media querries.
- <!--Sections marked in code-->
+
 
 ### Content
-The text content is generated with Chat-GPT 4
- <!---->
 
 ###  Media
 The picture I have taken from Pexels.com.
-https://www.pexels.com/photo/silhouette-photography-of-biker-on-top-of-hill-1619299/
-https://www.pexels.com/photo/man-in-black-and-orange-bicycle-riding-jacket-with-green-off-road-bike-90454/
-https://www.pexels.com/photo/man-in-white-and-green-raglan-elbow-sleeved-shirt-biking-at-daytime-733743/
-https://www.pexels.com/photo/photo-of-pathway-surrounded-by-fir-trees-1578750/
+* Hero image taken by Jahangeer Bm - https://www.pexels.com/photo/silhouette-photography-of-biker-on-top-of-hill-1619299/
+* About image by Pixabay - https://www.pexels.com/photo/bicyclist-passing-the-road-near-the-river-163407/
+* Gear image by Irene Lasus -https://www.pexels.com/photo/man-in-black-and-orange-bicycle-riding-jacket-with-green-off-road-bike-90454/
+* The contact image is taken by Darcy Lawrey - https://www.pexels.com/photo/man-in-white-and-green-raglan-elbow-sleeved-shirt-biking-at-daytime-733743/
+* The trails image is taken by James Wheeler - https://www.pexels.com/photo/photo-of-pathway-surrounded-by-fir-trees-1578750/
 
 
 ###  Acknowledgments

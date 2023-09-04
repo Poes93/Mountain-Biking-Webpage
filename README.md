@@ -2,7 +2,7 @@
 
 I build this website for my first project (Project 1) at Code Institute Aug 2023
 
-https://poes93.github.io/Mountain-Biking-Webpage/
+[Here is a live demo of the website](https://poes93.github.io/Mountain-Biking-Webpage/)
 
 ![amiresponsive](documentation/amiresposive.png)
 
@@ -48,20 +48,20 @@ https://poes93.github.io/Mountain-Biking-Webpage/
 
 ### User Stories
 
-Why This Website Exists
+#### Why This Website Exists
 
 As an avid mountain biker, I recognized the need for a comprehensive, one-stop resource for all things related to mountain biking — be it tips, trails, gear, or community. I created this website to serve as a hub for both beginners and experts alike, providing valuable insights and fostering a sense of community among mountain biking enthusiasts.
 
-User Stories
+#### User Stories 
 
-First-Time Visitors
-Discover What Mountain Biking Is About: As a first-time visitor, you may not know much about mountain biking. The "About" section provides a detailed overview of the sport, its history, and its connection with nature.
-Explore Trails: Interested in hitting the trails? Navigate to the "Trails" section to discover some of the most exciting mountain biking trails around the world.
-Gear Up: Not sure what gear you need? The "Gear and Equipment" section outlines all the essential items you'll need for your adventure.
-Learn Tips: If you're looking to improve or get started, the "Tips and Techniques" section offers valuable advice that can help you become a better biker.
-Connect: Finally, if you have any questions, the "Contact" section allows you to easily get in touch with us.
-Journey:
+** First-Time Visitors **
+**_Discover What Mountain Biking Is About:_** As a first-time visitor, you may not know much about mountain biking. The "About" section provides a detailed overview of the sport, its history, and its connection with nature.
+**_Explore Trails:_** Interested in hitting the trails? Navigate to the "Trails" section to discover some of the most exciting mountain biking trails around the world.
+**_Gear Up:_** Not sure what gear you need? The "Gear and Equipment" section outlines all the essential items you'll need for your adventure.
+**_Learn Tips:_** If you're looking to improve or get started, the "Tips and Techniques" section offers valuable advice that can help you become a better biker.
+**_Connect:_** Finally, if you have any questions, the "Contact" section allows you to easily get in touch with us.
 
+**Journey:**
 Land on the homepage via the #hero section.
 Read the "About" section to get an idea of what mountain biking entails.
 Browse through "Trails" to discover exciting places to go biking.
@@ -100,12 +100,12 @@ I've used googles font Noto Sans
 
 ### Imagery
 
-I have used images from https://www.pexels.com
-
-https://www.pexels.com/photo/silhouette-photography-of-biker-on-top-of-hill-1619299/
-https://www.pexels.com/photo/man-in-black-and-orange-bicycle-riding-jacket-with-green-off-road-bike-90454/
-https://www.pexels.com/photo/man-in-white-and-green-raglan-elbow-sleeved-shirt-biking-at-daytime-733743/
-https://www.pexels.com/photo/photo-of-pathway-surrounded-by-fir-trees-1578750/
+The picture I have taken from Pexels.com.
+* [Hero image taken by Jahangeer Bm](https://www.pexels.com/photo/silhouette-photography-of-biker-on-top-of-hill-1619299/)
+* [About image by Pixabay](https://www.pexels.com/photo/bicyclist-passing-the-road-near-the-river-163407/)
+* [Gear image by Irene Lasus](https://www.pexels.com/photo/man-in-black-and-orange-bicycle-riding-jacket-with-green-off-road-bike-90454/)
+* [The contact image is taken by Darcy Lawrey](https://www.pexels.com/photo/man-in-white-and-green-raglan-elbow-sleeved-shirt-biking-at-daytime-733743/)
+* [The trails image is taken by James Wheeler](https://www.pexels.com/photo/photo-of-pathway-surrounded-by-fir-trees-1578750/)
 
 ### Wireframes
 
@@ -141,8 +141,6 @@ For a preview of the website on different screens
 
 ### Future Implementations
 
-* Future Implementations.
-  * More sections and information
   * Times and schedules
   * Better allignment of the navbar to title text
   * Better allignemnt of the text sections 
@@ -214,6 +212,17 @@ Type 'git clone' into the terminal and then paste the link you copied in step 3.
 
 ## Testing
 
+## Testing 
+
+* Website was tested on the following browsers and with a Macbook Pro 14" 2021: Chrome, Safari and Brave.
+* For mobile it's been tested on a iPhone 13 Pro.
+* The website is responsive when using Google Devtools responsive screen adjuster.
+* The navigation and the sections Home, About, trails, gear, tips and contact works fine. Except that the user needs to scroll up a bit to get to the start of the section.
+* The form works: it requires entries in every field, only accepts an email in the email field, and the submit button works and the user will get a new window to confirm its been sent.
+* The text adapts in width to accommodate smaller o larger screens, always taking up the width available.
+* There are no broken links on the page
+
+
 W3C Validator
 ![HTML](documentation/html_validator.png)
 
@@ -225,7 +234,7 @@ W3C Validator
 
 ### Bugs
 
-These are the current bugs on the website. I can't seem to find out how to currently solve them but they most goes down to the Navbar and header part
+These are the current bugs on the website. I can't seem to find out how to currently solve them. I think these issues is due to the Nav/header bar with the scaling of the elements.
 
 * When opening the page on mobile the nav menu is already open and to close it one need to press the bars to close the menu. Same when pressing the links, the menu wont disapear automatically. 
 
@@ -241,19 +250,17 @@ These are the current bugs on the website. I can't seem to find out how to curre
 ## Credits
 
 ### Code Used
-I've used parts of Love Running nav menu and media querries.
-
+I've used parts of Love Running project for the nav menu and media querries.
 
 ### Content
 
 ###  Media
 The picture I have taken from Pexels.com.
-* Hero image taken by Jahangeer Bm - https://www.pexels.com/photo/silhouette-photography-of-biker-on-top-of-hill-1619299/
-* About image by Pixabay - https://www.pexels.com/photo/bicyclist-passing-the-road-near-the-river-163407/
-* Gear image by Irene Lasus -https://www.pexels.com/photo/man-in-black-and-orange-bicycle-riding-jacket-with-green-off-road-bike-90454/
-* The contact image is taken by Darcy Lawrey - https://www.pexels.com/photo/man-in-white-and-green-raglan-elbow-sleeved-shirt-biking-at-daytime-733743/
-* The trails image is taken by James Wheeler - https://www.pexels.com/photo/photo-of-pathway-surrounded-by-fir-trees-1578750/
-
+* [Hero image taken by Jahangeer Bm](https://www.pexels.com/photo/silhouette-photography-of-biker-on-top-of-hill-1619299/)
+* [About image by Pixabay](https://www.pexels.com/photo/bicyclist-passing-the-road-near-the-river-163407/)
+* [Gear image by Irene Lasus](https://www.pexels.com/photo/man-in-black-and-orange-bicycle-riding-jacket-with-green-off-road-bike-90454/)
+* [The contact image is taken by Darcy Lawrey](https://www.pexels.com/photo/man-in-white-and-green-raglan-elbow-sleeved-shirt-biking-at-daytime-733743/)
+* [The trails image is taken by James Wheeler](https://www.pexels.com/photo/photo-of-pathway-surrounded-by-fir-trees-1578750/)
 
 ###  Acknowledgments
 

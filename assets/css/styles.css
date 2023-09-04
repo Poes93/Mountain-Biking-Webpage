@@ -22,10 +22,6 @@ header {
     display: flex;
 }
 
-h1 {
-    font-size: 4vw; 
-}
-
 /* Title text */
 header a {
     text-decoration: none;
@@ -35,7 +31,7 @@ header a {
 }
 
 main {
-    padding-top: 100px;
+    padding-top: 95px;
 }
 
 /* Nav bar */
